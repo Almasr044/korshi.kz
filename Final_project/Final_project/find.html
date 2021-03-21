@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Korshi</title>
+<link rel="stylesheet"type="text/css" href="find.css">
+<h1 id="text">Application Form</h1>
+<hr>
+  </head>
+  <body>
+
+    <form name="theForm" id="theForm" action="FormAndTable.html" method="post">
+                First Name: <input type="text" id="fname"><span style="color:red" id="error1"></span><br>
+                Last Name: <input type="text" id="lname"><br>
+                Date of Birth: <input type="text" id="dob"><br>
+                Gender: <input type="text" id="Gender"><br>
+
+                <input type="button" value="Save" id="btnSave">
+                <a href="menu.html">
+                <button type="button" name="button">Back</button>
+                </a>
+            </form>
+
+
+            <!-- Instead of document.write, which writes over the document, set up a placeholder
+                 for output that starts off empty, but at least is positioned in the DOM ahead of time. -->
+            <div id="outputArea"></div>
+
+<script src="myscripts.js"></script>
+  </body>
+
+</html>
