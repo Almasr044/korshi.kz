@@ -1,0 +1,2 @@
+# korshi.kz
+First project
